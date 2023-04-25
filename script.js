@@ -9,6 +9,8 @@ const currentPlayer2 = document.querySelector('#current--1');
 const dice = document.querySelector('.dice');
 const backPlayer1 = document.querySelector('.player--0');
 const backPlayer2 = document.querySelector('.player--1');
+const cross = document.querySelector('.cross');
+const instruction = document.querySelector('.instruction');
 
 class Player {
   constructor(name) {
@@ -95,7 +97,9 @@ initGame();
 rollDice.addEventListener('click', playing);
 hold.addEventListener('click', holding);
 newGame.addEventListener('click', initGame);
-
+cross.addEventListener('click', function () {
+  instruction.classList.add('hidden');
+});
 function switchPlayer() {
   currentPlayer.resetScore();
   displayScore();

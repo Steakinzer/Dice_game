@@ -35,7 +35,36 @@ main {
   overflow: hidden;
   display: flex;
 }
-
+.hidden {
+  display: none;
+}
+.instruction {
+  background-color: white;
+  font-family: Nunito;
+  font-size: 2rem;
+  z-index: 2;
+  position: absolute;
+  width: 60vw;
+  height: 70vh;
+  border-radius: 10px;
+  transition: all 0.75s;
+}
+.text-instruction {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.closing-instructions {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.cross {
+  cursor: pointer;
+}
 .player {
   flex: 50%;
   padding: 9rem;
@@ -44,6 +73,9 @@ main {
   align-items: center;
   transition: all 0.75s;
   background-color: rgb(237, 237, 252);
+}
+h1 {
+  margin-bottom: 20px;
 }
 
 /* ELEMENTS */
