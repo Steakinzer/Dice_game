@@ -1,4 +1,5 @@
-![GitHub code size in bytes](https://github.com/Steakinzer/Dice_game)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Steakinzer/Dice_game)
+
 
 # Roll Dice Game
 
@@ -24,4 +25,4 @@ Lors de son tour, le joueur peut décider à tout moment de:
   Le premier joueur qui atteint les 100 points sur son score global gagne le jeu.
 
 <br><br>
-![Screenshot du jeu de dé](https://imgur.com/a/XNxcJEB)
+![Screenshot du jeu de dé](https://imgur.com/gallery/XNxcJEB)
