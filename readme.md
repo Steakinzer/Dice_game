@@ -25,4 +25,4 @@ Lors de son tour, le joueur peut décider à tout moment de:
   Le premier joueur qui atteint les 100 points sur son score global gagne le jeu.
 
 <br><br>
-[Imgur](https://i.imgur.com/mzfqCfk.png)
+![Imgur](https://i.imgur.com/mzfqCfk.png)
